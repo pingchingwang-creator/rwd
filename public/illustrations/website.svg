@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Background -->
+  <rect width="480" height="320" fill="#EDE7DC"/>
+
+  <!-- Subtle grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C9A45E" stroke-width="0.3" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="320" fill="url(#grid)"/>
+
+  <!-- Browser window frame -->
+  <rect x="80" y="50" width="320" height="210" rx="8" fill="#1B2A41" opacity="0.92"/>
+  <rect x="80" y="50" width="320" height="32" rx="8" fill="#2D3F59"/>
+  <rect x="80" y="70" width="320" height="12" fill="#2D3F59"/>
+
+  <!-- Browser dots -->
+  <circle cx="100" cy="66" r="5" fill="#B85C38" opacity="0.8"/>
+  <circle cx="116" cy="66" r="5" fill="#C9A45E" opacity="0.8"/>
+  <circle cx="132" cy="66" r="5" fill="#4F8A5E" opacity="0.8"/>
+
+  <!-- URL bar -->
+  <rect x="148" y="58" width="160" height="16" rx="8" fill="#1B2A41" opacity="0.6"/>
+  <text x="228" y="69" font-family="monospace" font-size="7" fill="#C9A45E" text-anchor="middle" opacity="0.7">nandao-tech.tw</text>
+
+  <!-- Page content inside browser -->
+  <!-- Hero area -->
+  <rect x="88" y="90" width="304" height="70" fill="#1B2A41" opacity="0.4"/>
+  <!-- Japanese decorative line -->
+  <line x1="88" y1="125" x2="392" y2="125" stroke="#C9A45E" stroke-width="0.5" opacity="0.3"/>
+  <!-- Headline lines -->
+  <rect x="140" y="108" width="120" height="8" rx="4" fill="#C9A45E" opacity="0.7"/>
+  <rect x="160" y="122" width="80" height="5" rx="2.5" fill="#F5F0E8" opacity="0.4"/>
+  <rect x="175" y="133" width="50" height="5" rx="2.5" fill="#C9A45E" opacity="0.5"/>
+  <!-- CTA button -->
+  <rect x="195" y="142" width="50" height="12" rx="6" fill="#C9A45E" opacity="0.8"/>
+  <rect x="260" y="142" width="36" height="12" rx="6" fill="none" stroke="#F5F0E8" stroke-width="1" opacity="0.4"/>
+
+  <!-- Nav items -->
+  <rect x="200" y="97" width="24" height="4" rx="2" fill="#F5F0E8" opacity="0.5"/>
+  <rect x="232" y="97" width="24" height="4" rx="2" fill="#F5F0E8" opacity="0.5"/>
+  <rect x="264" y="97" width="24" height="4" rx="2" fill="#F5F0E8" opacity="0.5"/>
+  <rect x="340" y="94" width="40" height="10" rx="5" fill="#C9A45E" opacity="0.7"/>
+
+  <!-- Cards section -->
+  <rect x="96" y="168" width="88" height="56" rx="4" fill="#F5F0E8" opacity="0.12"/>
+  <rect x="104" y="176" width="40" height="5" rx="2" fill="#C9A45E" opacity="0.6"/>
+  <rect x="104" y="185" width="72" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+  <rect x="104" y="191" width="60" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+  <rect x="104" y="197" width="50" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+
+  <rect x="196" y="168" width="88" height="56" rx="4" fill="#F5F0E8" opacity="0.12"/>
+  <rect x="204" y="176" width="40" height="5" rx="2" fill="#C9A45E" opacity="0.6"/>
+  <rect x="204" y="185" width="72" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+  <rect x="204" y="191" width="60" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+  <rect x="204" y="197" width="50" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+
+  <rect x="296" y="168" width="88" height="56" rx="4" fill="#F5F0E8" opacity="0.12"/>
+  <rect x="304" y="176" width="40" height="5" rx="2" fill="#C9A45E" opacity="0.6"/>
+  <rect x="304" y="185" width="72" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+  <rect x="304" y="191" width="60" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+  <rect x="304" y="197" width="50" height="3" rx="1.5" fill="#F5F0E8" opacity="0.3"/>
+
+  <!-- Bottom label -->
+  <text x="240" y="296" font-family="serif" font-size="11" fill="#1B2A41" text-anchor="middle" opacity="0.5" letter-spacing="4">Brand Website</text>
+  <line x1="160" y1="284" x2="320" y2="284" stroke="#C9A45E" stroke-width="0.5" opacity="0.4"/>
+</svg>
